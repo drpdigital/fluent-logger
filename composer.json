@@ -1,0 +1,28 @@
+{
+  "name": "drpdigital/fluent-logger",
+  "description": "Laravel logger for fluentd",
+  "keywords": ["Laravel", "Logger"],
+  "license": "MIT",
+
+  "authors": [
+    {
+      "name": "Luke Renfrew",
+      "email": "luke.renfrew@drpgroup.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "illuminate/support": "4.*",
+    "fluent/logger": "0.3.*",
+    "monolog/monolog": "1.9.*"
+
+  },
+  "autoload": {
+    "psr-4": {
+      "DrpDigital\\FluentLogger\\": "src/"
+    },
+    "files": [
+
+    ]
+  }
+}
