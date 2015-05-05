@@ -26,7 +26,7 @@ class FluentLoggerServiceProvider extends ServiceProvider
 
         $this->package('drpdigital/fluent-logger');
 
-        $this->app->config->package('drpdigital/fluent-logger', realpath(__DIR__ . '/../../config'), 'fluent-logger');
+        $this->app->config->package('drpdigital/fluent-logger', realpath(__DIR__ . '/config'), 'fluent-logger');
 
     }
 
